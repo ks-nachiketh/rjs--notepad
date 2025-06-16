@@ -33,14 +33,14 @@ export default function Navbar() {
           name={"open"}
           onClick={() => fileInputRef.current.click()}
           css={{padding: "2px", borderRadius: "2px" }}
-          children={<Icon imgPath="../public/folder.png" />}
+          children={<Icon imgPath="/folder.png" />}
         />
 
         <Button
           name={"save"}
           onClick={() => handleSave(content)}
           css={{padding: "2px",borderRadius: "2px"}}
-          children={<Icon imgPath="../public/diskette.png" />}
+          children={<Icon imgPath="/diskette.png" />}
         />
       </div>
     </div>
