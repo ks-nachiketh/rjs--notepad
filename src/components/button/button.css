@@ -1,0 +1,40 @@
+.button-core{
+    background-color: #3a85bb;
+    min-width: 30px;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2%;
+    cursor: pointer;
+
+}
+
+.button-core:hover{
+
+    background-color:red;
+}
+
+.button-core:hover .button {
+  color: yellow;
+}
+
+
+.button {
+    all:unset;
+    
+    color:white;
+    font-size: 10px;
+    width:99%;
+    height : 99%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.button:focus{
+    outline:none
+}

@@ -1,0 +1,31 @@
+.navbar{
+
+    font-family: 'Trebuchet MS';
+    background-color: #3a85bb;
+    display: flex;
+    height: 40px;
+    width:100%;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left:10px;
+
+}
+
+.navbar .title {
+
+    display: flex;
+    font-size: 12px;
+    color:white;
+    font-weight : bold;
+
+} 
+
+
+.navbar-buttons-core{
+
+    display:flex;
+    flex-direction: row;
+    gap:1px;
+
+
+}

@@ -1,0 +1,19 @@
+.text-area-core{
+
+    width:100%;
+    height : 100%;
+    display:flex;
+}
+
+.text-area{
+
+    width:100%;
+    overflow: hidden;
+
+    border:0px;
+    padding:10px;
+}
+
+.text-area:focus{
+    outline: none;
+}
