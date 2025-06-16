@@ -21,13 +21,14 @@ export default function Navbar() {
       <label className="title">Notepad</label>
 
       <div className="navbar-buttons-core">
+        
         <input
-      type="file"
-      ref={fileInputRef}
-      style={{ display: "none" }}
-      onChange={(e)=>handleOpen(e, dispatch)}
-      accept=".txt"
-    />
+          type="file"
+          ref={fileInputRef}
+          style={{ display: "none" }}
+          onChange={(e)=>handleOpen(e, dispatch)}
+          accept=".txt"
+        />
 
         <Button
           name={"open"}
